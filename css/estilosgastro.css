@@ -20,13 +20,16 @@ a :hover{
 
 }
 
-
+.list_r{
+	padding-left: 10rem;
+	/* background-color: #fff; */
+}
 
 .menu{
 		width: 100%;
 		height: 12vh;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		align-items: center;
 		background-color: #082032;
 }
@@ -37,9 +40,11 @@ a :hover{
 	align-items: center;
 }
 
+
 .menu__item{
 
-	padding: 0 1rem;}
+	padding: 0 1rem;
+}
 
 .menu__link{
 	font-size: 1.5rem;
@@ -84,4 +89,37 @@ height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+.contenedor_bars{
+	display: flex;
+	align-items: center;
+}
+
+
+
+@media screen and (max-width:800px) {
+	.contenedor_bars{
+		position: absolute;
+		top: 5.8rem;
+		left: 0;
+		background-color: #082032;
+		width: 100%;
+		height: 7vh;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.list_r{
+		display: none;
+	}
+
+	.menu__link{
+		font-size: 1rem;
+	}
+
+	
+
 }

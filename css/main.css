@@ -644,6 +644,8 @@ b{
     .Descripcion__ST{
         font-size: 15px;
     }
+
+  
 }
 
 @media screen and (min-width:790px) {
@@ -775,4 +777,19 @@ b{
     
     margin-top: 2rem;}
 }
-         
+
+@media screen and (max-width:682px) {
+      .menu__link{
+       font-size: 11px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .menu__nesting1{
+        top: 2.5rem;
+        left: 0;
+
+    }
+
+}
