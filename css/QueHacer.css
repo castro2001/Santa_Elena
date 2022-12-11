@@ -1,0 +1,85 @@
+
+  .divisor{
+	width: 350px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+  }
+.divisor__2{
+	width: 180px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+}
+  .viajes{
+	width: 100%;
+  }
+
+  .titulo{
+	width: 100%;
+  }
+.Titulo__Horario{
+	margin-left: 150px;
+}
+.divisor__3{
+	width: 720px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+	margin-left: 140px;
+}
+.menu{
+	margin-bottom: 85px;
+}
+.divisor__4{
+	width: 680px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-left: 500px;
+}
+
+.divisor__5{
+	width: 440px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	
+	margin-left: 450px;
+}
+.t__color{
+	color: #151515;
+	font-size: 16px;
+}
+.T__color{
+	font-size: 30px;
+	text-align: justify;
+}
+
+.divisor__6{
+	width: 340px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+	margin-left: 540px;
+}
+.titulo{
+	margin-top: 85px;
+}
+.contente__font{
+	width: 80%;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 130px;
+}
+.Titulo__Provincia{
+    font-size: 45px;
+    margin-left: 100px;
+	color: black;
+    
+}
+.contente__font1{
+
+	font-size: 18px;
+	text-align: justify;
+	
+}
+

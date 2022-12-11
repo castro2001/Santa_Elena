@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<title>FlipPage</title>
+		<link href="../css/estilosgastro.css" rel="stylesheet"/>
+		
+		<!-- jQuery -->
+		<script src="../jquery.min.js"></script>
+		
+		<!--  Flippage -->
+		<script src="../jquery.flippage.min.js"></script>
+		<link href="../jquery.flippage.css" type="text/css" rel="stylesheet" />
+		  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CPoppins:400%7CTeko:300,400">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/style.css">
+	    <link rel="stylesheet" href="../css/main.css">
+
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+
+	<script >
+		(function($){
+			$(document).ready(function(){
+				$('.exemples:eq(0)').flippage({
+					width: 900,
+					height: 550
+					
+				});
+				
+				$('.exemples:eq(1)').flippage({
+					width: 300,
+					height: 250
+				});
+			});
+		})(jQuery);
+	</script>
+</head>
+<body>
+	<header class="menu">
+		<a class="rd-nav-link" href="../index.html"><img src="../images/santaelena11.png" width="70" height="70"alt="" class="Logo"/></a>
+		<a class="rd-nav-link" href="../index.html"><img src="../images/logost1.png" width="150" height="150"alt="" class="Logo"/></a>
+		
+			<!-- RD Navbar Nav-->
+			<ul class="menu__links">
+		                                        
+			<li class=" menu__item"><a class="menu__link" href="#">Donde ir</a>
+				<ul class="menu__nesting1">
+					<div  class="Contenedor__nesting1" id="flex">
+						<ul class="list__show" id="Control">
+						<li ><a href="#" class=" nav_item  "  id="Id_Nunez" onmouseover="mostrar_1()" onmouseout="No_mostrar_1()">Las Nuñez</a></li>
+						<li><a href="#" class="nav_item " id="Id_La_Entrada" onmouseover="mostrar_2()" onmouseout="No_mostrar_2()">La Entrada</a>            
+						</li>
+						<li ><a href="#" class="nav_item " id="Id_Curia"onmouseover="mostrar_3()" onmouseout="No_mostrar_3()" >Curía</a>            
+						</li>
+						<li ><a href="#" class="nav_item " id="Id_San_Jose" onmouseover="mostrar_4()" onmouseout="No_mostrar_4()">San José</a>                 
+						</li>
+						<li ><a href="#" class="nav_item "  id="Id_Olon" onmouseover="mostrar_5()" onmouseout="No_mostrar_5()">Olón</a>                      
+						</li>
+						<li><a href="../montañita.html" class="nav_item " id="Id_Montanita" onmouseover="mostrar_6()" onmouseout="No_mostrar_6()">Montañita</a>                     
+						</li>
+						<li><a href="#" class="nav_item " id="Id_Anconcito" onmouseover="mostrar_7()" onmouseout="No_mostrar_7()">Anconcito</a>
+						</li>
+						<li><a href="#" class="nav_item  " onmouseover="mostrar_8()" onmouseout="No_mostrar_8()" id="Id_Ancon">Ancón</a>            
+						</li>
+						</ul>
+
+				<img src="../resource/Map.svg" alt="mapa" class="img" >
+					<ul class="localizador_mapa" >
+						<li  title="Nuñez"id="Circle_Nuñez" class="Circle C1"    onmouseover="mostrar_1()" onmouseout="No_mostrar_1()" ></li>
+						<li id="Text_Box_Nuñez" class="Text Text1 "onmouseover="mostrar_1()" onmouseout="No_mostrar_1()" >Las Nuñez</li> 
+						<li title="Entrada" id="Circle_La_Entrada" class="Circle C2 "  onmouseover="mostrar_2()" onmouseout="No_mostrar_2()" ></li>
+						<li id="Text_Box_La_Entrada" class="Text Text2 "onmouseover="mostrar_2()" onmouseout="No_mostrar_2()"  >La Entrada</li> 
+						<li title="Curía" id="Circle_Curía" class="Circle C3" onmouseover="mostrar_3()" onmouseout="No_mostrar_3()" ></li>
+						<li id="Text_Box_Curía" class="Text Text3" onmouseover="mostrar_3()" onmouseout="No_mostrar_3()" >Curía</li> 
+						<li title="San Jose" id="Circle_San_José" class="Circle C4" onmouseover="mostrar_4()" onmouseout="No_mostrar_4()" ></li>
+						<li id="Text_Box_San_José" class="Text Text4 " onmouseover="mostrar_4()" onmouseout="No_mostrar_4()" >San Jose</li> 
+						<li title="Olon" id="Circle_Olón" class="Circle C5" onmouseover="mostrar_5()" onmouseout="No_mostrar_5()" ></li>
+						<li id="Text_Box_Olón" class="Text Text5" onmouseover="mostrar_5()" onmouseout="No_mostrar_5()" >Olon</li> 
+						<li title="Montañita" id="Circle_Montañita" class="Circle C6" onmouseover="mostrar_6()" onmouseout="No_mostrar_6()" ></li>
+						<li  ><a href="../montañita.html" id="Text_Box_Montañita" class="Text Text6 "  onmouseover="mostrar_6()" onmouseout="No_mostrar_6()">Montañita</a></li> 
+						<li title="Aconcito" id="Circle_Anconcito" class="Circle C7" onmouseover="mostrar_7()" onmouseout="No_mostrar_7()" ></li>
+						<li id="Text_Box_Anconcito" class="Text Text7 " onmouseover="mostrar_7()" onmouseout="No_mostrar_7()" >Aconcito</li> 
+						<li  title="Ancon" id="Circle_Ancon" class="Circle C8 " onmouseover="mostrar_8()" onmouseout="No_mostrar_8()"  ></li>
+						<li id="Text_Box_Ancón" class="Text Text8 " onmouseover="mostrar_8()" onmouseout="No_mostrar_8()"  >Ancon</li> 
+					</ul>
+					</div> 
+		</ul>
+			
+			</li>  
+			<li class=" menu__item"><a class="menu__link" href="../quevisitar.html">Agenda de Fiestas</a>
+			<div class="menu__nesting2 ">
+
+				<figure class="contenedor_agenda">
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda1.jpg" class="figure_img" alt="Agenda de Enero " >
+							<figcaption ><p>Enero</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+						<a href="../stfiesta.html" class="figure_caption ">
+						<img src="../resource/img/Agenda/agenda2.jpg" class="figure_img" alt="...">
+						<figcaption ><p>Febrero</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+						<a href="../stfiesta.html" class="figure_caption " class="figure_caption ">
+						<img src="../resource/img/Agenda/agenda3.jpg" class="figure_img" alt="...">
+						<figcaption ><p>Marzo</p></a></figcaption>
+						</figure>  
+
+						<figure class="figure">
+						<a href="../stfiesta.html" class="figure_caption">
+						<img src="../resource/img/Agenda/agenda4.jpg" class="figure_img" alt="...">
+						<figcaption ><p>Abril</p></a></figcaption>
+						</figure>              
+				</figure>
+
+				<figure class="contenedor_agenda">
+						<figure class="figure">
+						<a href="../stfiesta.html" class="figure_caption ">
+						<img src="../resource/img/Agenda/agenda5.jpg" class="figure_img" alt="...">
+						<figcaption ><p>Mayo</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+						<a href="../stfiesta.html" class="figure_caption ">
+						<img src="../resource/img/Agenda/agenda6.jpg" class="figure_img" alt="...">
+						<figcaption><p>Junio</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda7.jpg" class="figure_img" alt="...">
+							<figcaption ><p>Julio</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda8.jpg" class="figure_img" alt="...">
+							<figcaption ><p>Agosto</p></a></figcaption>
+						</figure>
+
+				</figure>
+				<figure class="contenedor_agenda ">
+
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda9.jpg" class="figure_img" alt="...">
+							<figcaption ><p>Septiembre</p></a></figcaption>
+						</figure>
+												
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda10.jpg"  class="figure_img" alt="...">
+							<figcaption ><p>Octubre</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda11.jpg" class="figure_img" alt="...">
+							<figcaption ><p>Noviembre</p></a></figcaption>
+						</figure>
+
+						<figure class="figure">
+							<a href="../stfiesta.html" class="figure_caption ">
+							<img src="../resource/img/Agenda/agenda12.jpg" class="figure_img" alt="...">
+							<figcaption ><p>Diciembre</p></a></figcaption>
+						</figure>
+				</figure>                    		
+			</div>
+			</li>
+			<li class="menu__item Opcion__Principal"><a class="menu__link " href="#">Galeria Turística</a>
+				<ul class="Lista__SubMenu">
+						<li><a class="Direccion__2" href="../statractivos.html"> <b>Atractivos Turísticos</b></a></li>
+						<li><a class="Direccion__2" href="./exemples.html"> <b>Gastronomía</b></a></li>
+						<li><a class="Direccion__2" href="../stfiesta.html"> <b>Fiestas</b></a></li>
+						<li><a class="Direccion__2" href="../stleyendas.html"> <b>Leyendas y Tradiciones </b></a></li>                                
+				</ul>
+			</li>
+			<li class="menu__item"><a class="menu__link" href="#">Planifica tú Viaje</a></li>
+			</ul>
+
+				<ul class="list-inline list-inline-md rd-navbar-corporate-list-social">
+			<li><a class="icon fa fa-facebook" href="#"></a></li>
+			<li><a class="icon fa fa-twitter" href="#"></a></li>
+			
+			</ul>
+	
+	
+	</header>
+	<div class="Contenedor">
+	<div class="exemples" >
+		<div class="item"><img src="./img/Publicación2.png"  class="imagen" style="margin-left: 0px; width: 900px; height: 550px;" /></div>
+		<div class="item"><img src="./img/Publicación2.png" style="margin-left: -450px; width: 900px; height: 550px;" /></div>
+		<div class="item"><img src="./img/01.png" style="margin-left: 0px; width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/01.png" style="margin-left: -450px; width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/02.png" style="margin-left: 0px; width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/02.png" style="margin-left: -450px; width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/03.png"style="margin-left: 0px; width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/03.png" style="margin-left: -450px;width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/04.png" style="margin-left: 0px;width: 900px; height:550px;" /></div>
+		<div class="item"><img src="./img/04.png" style="margin-left: -450px;width: 900px; height:550px;" /></div>
+		
+	</div>
+	<div class="Controles">
+	<a href="#" onclick="$('.exemples:eq(0)').trigger('previous'); return false;">&#9668</a>
+	&nbsp<a href="#" onclick="javascript:$('.exemples:eq(0)').trigger('next'); return false;">&#9658</a>
+	</div>
+	</div>	
+  <footer class="Footer">
+          <a href="../index.html" class="footer__logo" >
+            <img src="../resource/img/logo.png" alt="logo santa elena" class="Footer__Img">
+          </a>
+
+          <ul class="Footer__Redes__Sociales">
+          <li class="Foteer__R"><a class=" fa fa-facebook" href="#"></a></li>
+          <li class="Foteer__R"><a class=" fa fa-twitter " href="#"></a></li>
+          <li class="Foteer__R"><a class=" fa fa-google-plus" href="#"></a></li>
+          <li class="Foteer__R"><a class="fa fa-instagram " href="#"></a></li>
+          </ul>
+          
+          <p class="Footer__Description">
+            <b>© Santa Elena</b> - Todos los Derechos Reservados. 
+          </p>
+         
+       
+</footer> 
+		
+	 <!-- Javascript-->
+<script src="js/core.min.js"></script>
+
+    <script src="../js/mapa.js"></script>	
+</body>
+</html>

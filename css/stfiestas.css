@@ -1,0 +1,167 @@
+
+.readMore_btn {
+	margin-top: 30px;
+	background-color: #071b42;
+	border: none;
+	border-radius: 40px;
+	color: white;
+	padding: 15px 32px;
+	font-size: 1.2em;
+	box-shadow: 0px 0px 10px 0px #5a78c1;
+	cursor: pointer;
+  }
+  
+  .readMore_btn:hover {
+	box-shadow: none;
+	background-color: black;
+	color: #fff;
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+  }
+ .h1{
+	font-size: 13px;
+ }
+ .foto{
+	margin-top: 15px;
+ }
+   
+  .hideText {
+	display: none;
+  }
+  
+  .showText {
+	display: block;
+  }
+
+  .divisor{
+	width: 350px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+  }
+.divisor__2{
+	width: 180px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+}
+  .viajes{
+	width: 100%;
+  }
+
+  .titulo{
+	width: 100%;
+  }
+.Titulo__Horario{
+	margin-left: 150px;
+}
+.divisor__3{
+	width: 720px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+	margin-left: 140px;
+}
+.menu{
+	margin-bottom: 85px;
+}
+
+
+.divisor__enero{
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+
+.divisor__febrero{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__marzo{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+
+@media (min-width: 1200px){
+	.page-template-template-homepage-v1 .header-v1 .departments-menu>.dropdown-menu{
+		display:none !important;
+	}
+}
+.divisor__abril{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__mayo{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+
+.divisor__junio{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__julio{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__agosto{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__septiembre{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__octubre{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__noviembre{
+	
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__diciembre{
+	display: flex;
+	border-top: 2px solid #F5DE39;
+}
+.divisor__5{
+	width: 340px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	
+	margin-left: 510px;
+}
+
+
+.t__color{
+	color: #151515;
+	font-size: 16px;
+}
+.T__color{
+	font-size: 30px;
+}
+
+.divisor__6{
+	width: 340px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-bottom: 35px;
+	margin-left: 540px;
+}
+.image{
+	width: 600px; 
+	height: 400px;
+}
+
+.image2{
+	width: 270px; 
+	height: 195px;
+}
