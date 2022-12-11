@@ -367,7 +367,6 @@
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
     border-bottom: 12px solid rgba(255,255,255,0.4);
-    backdrop-filter: blur(20px);
   
     position: absolute;
     top: -12px;
