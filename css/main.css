@@ -608,7 +608,7 @@ b{
 
 .Foteer__R a{
     color: var(--colorSlider);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     opacity: .5;
 }
 
@@ -617,7 +617,7 @@ b{
 }
 
 .Footer__Description {
-    font-size: 25px;
+    font-size: 15px;
     padding: 20px;
     color: var(--colorSlider);
 }
@@ -749,36 +749,23 @@ b{
     .Flex__Contenedor{
         margin-bottom: -0px;
     }
+
+     .Footer__Description{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:980px){
+    .Titulo__Principal,
+    .encabezado h3{
+        margin-top: 3rem;
+    }
+    .Descripcion__ST,
+    .Descripcion{        
+        margin-top: 2rem;
+    }
+
+    .btn{
+    
+    margin-top: 2rem;}
 }
          
-/* @media (min-width: 660px), handheld and (orientation: landscape) {  */
-
-
-/* @media screen and (min-width:900px){
-
-
-    .flex__container{
-        flex-direction: row-reverse;
-    }
-
-  .flex__item__1{
-background-color: #A16E83;
-    width: 100%;
-      -webkit-order: 2;
-    -ms-flex-order: 2;
-    order: 2;
-  }
-
-.flex__item__1{
-background-color: #A16E83;
-    width: 100%;
-      -webkit-order: 1;
-    -ms-flex-order: 1;
-    order: 1;
-  }
-
-  .Footer__Description{
-            font-size: 1.5rem;
-
-    }
-} */
