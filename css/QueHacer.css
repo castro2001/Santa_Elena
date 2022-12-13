@@ -32,10 +32,10 @@
 	margin-bottom: 85px;
 }
 .divisor__4{
-	width: 680px;
+	width: 668px;
 	display: flex;
 	border-top: 2px solid #F5DE39;
-	margin-left: 500px;
+	margin-left: 350px;
 }
 
 .divisor__5{
@@ -70,9 +70,9 @@
 	text-align: left;
 	margin-left: 130px;
 }
-.Titulo__Provincia{
+.Titulo__Cultura{
     font-size: 45px;
-    margin-left: 100px;
+    margin-left: 350px;
 	color: black;
     
 }
@@ -83,3 +83,22 @@
 	
 }
 
+.principal{
+	font-size: 45px;
+    margin-left: 450px;
+	color: black;
+    
+}
+.principal__2{
+	font-size: 45px;
+    margin-left: 420px;
+	color: black;
+    
+}
+
+.divisor__7{
+	width: 640px;
+	display: flex;
+	border-top: 2px solid #F5DE39;
+	margin-left: 415px;
+}
